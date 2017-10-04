@@ -7,12 +7,26 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
 
+    var reproductor : AVAudioPlayer!
+    
+    @IBAction func sonidoPulsado(_ sender: UIButton) {
+        print("botón pulsado!")
+        reproductor.play()
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let rutaAlArchivo = Bundle.main.url(forResource: "queMeQuedoSinComer", withExtension: "mp3")!
+        do{
+            try reproductor = AVAudioPlayer(contentsOf: rutaAlArchivo )
+        } catch{}
+       
     }
 
     override func didReceiveMemoryWarning() {

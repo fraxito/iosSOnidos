@@ -12,6 +12,8 @@
 		E3DD8A1E1F84E99200151C2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3DD8A1C1F84E99200151C2A /* Main.storyboard */; };
 		E3DD8A201F84E99200151C2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3DD8A1F1F84E99200151C2A /* Assets.xcassets */; };
 		E3DD8A231F84E99200151C2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3DD8A211F84E99200151C2A /* LaunchScreen.storyboard */; };
+		E3DD8A2B1F84F60700151C2A /* queMeQuedoSinComer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E3DD8A2A1F84F60700151C2A /* queMeQuedoSinComer.mp3 */; };
+		E3DD8A2E1F84F6F900151C2A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3DD8A2D1F84F6F900151C2A /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E3DD8A1F1F84E99200151C2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3DD8A221F84E99200151C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3DD8A241F84E99200151C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3DD8A2A1F84F60700151C2A /* queMeQuedoSinComer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = queMeQuedoSinComer.mp3; sourceTree = "<group>"; };
+		E3DD8A2D1F84F6F900151C2A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3DD8A2E1F84F6F900151C2A /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,7 @@
 			children = (
 				E3DD8A171F84E99200151C2A /* iSonidos */,
 				E3DD8A161F84E99200151C2A /* Products */,
+				E3DD8A2C1F84F6F800151C2A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +60,7 @@
 		E3DD8A171F84E99200151C2A /* iSonidos */ = {
 			isa = PBXGroup;
 			children = (
+				E3DD8A2A1F84F60700151C2A /* queMeQuedoSinComer.mp3 */,
 				E3DD8A181F84E99200151C2A /* AppDelegate.swift */,
 				E3DD8A1A1F84E99200151C2A /* ViewController.swift */,
 				E3DD8A1C1F84E99200151C2A /* Main.storyboard */,
@@ -62,6 +69,14 @@
 				E3DD8A241F84E99200151C2A /* Info.plist */,
 			);
 			path = iSonidos;
+			sourceTree = "<group>";
+		};
+		E3DD8A2C1F84F6F800151C2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3DD8A2D1F84F6F900151C2A /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +141,7 @@
 				E3DD8A231F84E99200151C2A /* LaunchScreen.storyboard in Resources */,
 				E3DD8A201F84E99200151C2A /* Assets.xcassets in Resources */,
 				E3DD8A1E1F84E99200151C2A /* Main.storyboard in Resources */,
+				E3DD8A2B1F84F60700151C2A /* queMeQuedoSinComer.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
